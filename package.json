@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"line-reader": "^0.4.0"
+	},
+	"name": "day1",
+	"type": "module",
+	"version": "1.0.0"
+}
