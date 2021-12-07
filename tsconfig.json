@@ -5,11 +5,6 @@
 		"strict": true,
 		"target": "es6"
 	},
-	"include": [
-        "declarations.d.ts",
-		"src/**/*"
-	],
-    "exclude": [
-		"node_modules"
-	]
+	"include": ["declarations.d.ts", "src/**/*"],
+	"exclude": ["node_modules"]
 }
