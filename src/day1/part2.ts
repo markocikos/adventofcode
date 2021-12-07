@@ -1,8 +1,8 @@
 import lineReader from "line-reader";
 
-const inputs = [];
+const inputs: Array<number> = [];
 
-lineReader.eachLine("inputs", function (line, last) {
+lineReader.eachLine("inputs", function (line: string, last: string) {
   inputs.push(parseInt(line, 10));
 
   if (last) {
@@ -10,7 +10,7 @@ lineReader.eachLine("inputs", function (line, last) {
   }
 });
 
-const run = (measurements) => {
+const run = (measurements: Array<number>) => {
   let increasesCount = 0;
   let lastWindow = Number.MAX_VALUE;
 

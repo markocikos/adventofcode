@@ -1,10 +1,10 @@
 import lineReader from "line-reader";
 
-let increasesCount = 0;
-let lastDepth = Number.MAX_VALUE;
+let increasesCount: number = 0;
+let lastDepth: number = Number.MAX_VALUE;
 
-lineReader.eachLine("inputs", function (line, last) {
-  const depth = parseInt(line, 10);
+lineReader.eachLine("inputs", function (line: string, last: string) {
+  const depth: number = parseInt(line, 10);
 
   if (depth > lastDepth) {
     increasesCount++;
