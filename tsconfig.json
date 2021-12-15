@@ -1,9 +1,9 @@
 {
 	"compilerOptions": {
-		"module": "es6",
+		"module": "esnext",
 		"moduleResolution": "node",
 		"strict": true,
-		"target": "es6"
+		"target": "es2017"
 	},
 	"include": ["declarations.d.ts", "src/**/*"],
 	"exclude": ["node_modules"]
